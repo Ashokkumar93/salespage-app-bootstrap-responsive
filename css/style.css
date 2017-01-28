@@ -1,0 +1,141 @@
+body {
+  padding-top: 50px;
+}
+.em-text{
+	color: #1caa98 !important;
+}
+section{
+	padding: 40px 0 40px 0;
+}
+.jumbotron{
+	background:#1b222a url(../img/site_showcase_bg.jpg) no-repeat top center;
+	color: #ffffff;
+	height: 499px;
+	overflow: none;
+}
+.jumbotron h1{
+	margin-top: 65px;
+}
+.jumbotron p{
+	margin-bottom: 40px;
+}
+.jumbotron img.app-btn{
+	width: 40%;
+	margin-right: 30px;
+}
+.jumbotron img.showcase-img{
+	width: 75%;
+	
+}
+.col-md-4, .col-md-8{
+	margin-bottom: 20px;
+}
+img.demo{
+	width: 100%;
+	padding: 3px;
+	border: 1px solid #cccccc;
+}
+section#feature{
+	background: #1caa98;
+	padding: 40px 0 40px 0;
+	color: #ffffff;
+	overflow: auto;
+}
+section#feature ul li{
+	list-style-type: none;
+	line-height: 2.0em;
+	font-size: 20px;
+}
+section#feature ul{
+	padding: 0;
+	margin: 0;
+}
+footer{
+	background: #333;
+	padding: 40px 0 30px 0;
+	color: #fff;
+}
+footer li{
+	list-style: none;
+	float: left;
+	padding: 0 10px 0 10px;
+}
+
+footer a{
+	color: #fff;
+}
+footer p{
+	float: right;
+}
+
+section#title-bar{
+	padding: 0;
+	margin: 0;
+	height: 80px;
+	background: #1caa98;
+	color: #fff;
+}
+section#title-bar{
+	margin-bottom: 20px;
+}
+
+/*MWDIA QUIRES*/
+
+@media (min-width: 1200px){
+   .jumbotron img.showcase-img{
+   	  width: 60%;
+	  height: 451px;
+	}
+}
+
+@media (max-width: 991px){
+   .jumbotron img.showcase-img{
+	  display: none;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 990px){
+     .jumbotron img.app-btn{
+	   width: 30%;
+    }
+    .jumbotron{
+    	height: 400px !important;
+    	background-size: 100% 100%;
+    }
+    .jumbotron h1{
+    	margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px){
+  .jumbotron{
+    	height: 350px !important;
+    	background-size: 100% 100%;
+    }
+    .jumbotron h1{
+    	margin-top: 10px;
+    }
+}
+
+@media (max-width: 500px){
+	.jumbotron{
+    	height: 420px !important;
+    	background-image: none;
+    	text-align: center;
+    }
+    .jumbotron img.app-btn{
+	width: 60%;
+	margin:0 auto 30px auto;
+	display: block;
+   }
+   section#feature ul li{
+   	font-size: 15px;
+   }
+   footer p{
+   	float: none;
+   	text-align:center;
+   	padding-top: 20px;
+   }
+  
+}
