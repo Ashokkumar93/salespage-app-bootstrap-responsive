@@ -35,6 +35,9 @@ img.demo{
 	padding: 3px;
 	border: 1px solid #cccccc;
 }
+#middle p, .col-md-4 p, #about p, #about .panel-body{
+	text-align:justify;
+}
 section#feature{
 	background: #1caa98;
 	padding: 40px 0 40px 0;
